@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>festival</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-50">
+    <!-- navbr -->
+    <nav
+      class="bg-white border-b border-gray-200 fixed w-full z-50 top-0 inset-s-0"
+    >
+      <div
+        class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span
+            class="self-center text-2xl font-bold whitespace-nowrap text-amber-900"
+            >Khmer Heritage</span
+          >
+        </a>
+
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="/src/homepage.html"
+                class="block py-2 px-3 text-amber-700 font-bold md:p-0"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/src/tradition.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0"
+                >Traditions</a
+              >
+            </li>
+            <li>
+              <a
+                href="/src/food.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0"
+                >Food</a
+              >
+            </li>
+            <li>
+              <a
+                href="/src/festivals.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0"
+                >Festivals</a
+              >
+            </li>
+            <li>
+              <a
+                href="/src/about.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-600 md:p-0"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- introduction -->
+    <section class="relative w-full h-screen overflow-hidden">
+      <img
+        src="https://travelsense.asia/wp-content/uploads/2019/07/cambodia1.jpg"
+        alt="Angkor Wat"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4"
+      >
+        <p
+          class="tracking-widest text-xl md:text-base uppercase text-yellow-400 font-medium"
+        >
+          Cambodia – Kingdom of Wonder
+        </p>
+
+        <h1
+          class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-amber-700 animate-fade-up animate-infinite md:text-7xl font-extrabold mt-4 drop-shadow-lg"
+        >
+          Khmer Traditions
+        </h1>
+
+        <p
+          class="mt-4 max-w-2xl font-cormorant text-base md:text-xl text-gray-200"
+        >
+          Ancient customs woven into the fabric of daily life
+        </p>
+      </div>
+    </section>
+    <div class="mt-10">
+      <h2
+        class="text-4xl font-bold text-center text-amber-700 mt-12 animate-fade-up animate-infinite"
+      >
+        Our Traditions Festival is Here
+      </h2>
+      <hr class="w-48 mx-auto border-t-4 border-amber-500 mt-10" />
+    </div>
+
+    <!-- section1  important-->
+    <div class="max-w-7xl mt-10 mx-auto p-8 bg-white border border-amber-200">
+      <div class="items-center gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 animate-bounce">
+          <img
+            class="w-[200px] lg:w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.boreiangkor.com/wp-content/uploads/2023/10/robam-trod.jpg"
+            alt="wedding image"
+          />
+         
+          <img
+            class="w-[200px] lg:w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.boreiangkor.com/wp-content/uploads/2023/12/srang-preah.jpg"
+            alt="wedding image"
+          />
+
+          <img
+            class="w-[200px] lg:w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.asiakingtravel.com/cuploads/images/Blog/Cambodia%20festivals/Cambodia-Festivals-Khmer-New-Year-1.jpg"
+            alt="wedding image"
+          />
+          <img
+            class="w-[200px] lg:w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://m3.paperblog.com/i/33/330827/cambodia-khmer-new-year-seven-angels-and-the--L-EJpti3.jpeg"
+            alt="khmer new year image"
+          />
+        </div>
+
+        <h1
+          class="text-amber-900 text-4xl font-bold mt-4 place-self-center mb-4"
+        >
+          Chol Chnam Thmay - Khmer New Year
+        </h1>
+
+        <p
+          class="mb-8 text-xl text-stone-700 leading-relaxed max-w-3xl mx-auto italic"
+        >
+          Khmer New Year, or "Choul Chnam Thmey", is one of the biggest
+          festivals in Cambodia, marking the end of the harvest season, the
+          start of the rainy season, and the traditional new year. Unlike most
+          Cambodian holidays, which follow the lunar calendar, the New Year in
+          Cambodia follows the Gregorian calendar. Celerated on either April
+          13th or 14th and lasting for 3 days, the festival is a time for
+          relaxation, family reunions, and cultural and religious festivities.
+          <span class="block">
+            During the holiday, the Cambodians clean the house, go to the
+            temples, give each other gifts, and participate in colorful
+            processions and traditional games. Water has a major symbolic
+            meaning in the event, as it represents purification and the washing
+            away of past sins and bad luck. People sprinkle water on one another
+            as a gesture for blessings and join in lively water fights, which
+            strengthens the bonds of community. It resembles Thailand's Songkran
+            on a smaller scale.
+          </span>
+        </p>
+      </div>
+    </div>
+    <!-- section2 -->
+    <div class="max-w-6xl mt-10 mx-auto p-4 sm:p-6 md:p-8 bg-white border border-amber-200 rounded-xl">
+      <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
+        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+          <img
+            class="w-[400px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.indochina.tours/wp-content/uploads/2018/11/offering-in-Khmer-New-year.jpg"
+            alt="khmer new year image"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://scontent.fpnh8-1.fna.fbcdn.net/v/t39.30808-6/668888017_1263570182624507_5387727468255044943_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHoHjqmmSxT1pZjTAy7qjhya-0Te9EOY1Vr7RN70Q5jVbaBDW1kYhr9hJxAG0FVWrj2QYI7iyM_FWnGYZ4aZ6th&_nc_ohc=OXHv53c3I88Q7kNvwEAeQCT&_nc_oc=AdqDBYXneKKnRrH8-GObN0TM3MJ7LNBYSUvkykqg1IqqEr39JLjzRcg_AdTgK-zP5qM&_nc_zt=23&_nc_ht=scontent.fpnh8-1.fna&_nc_gid=5m5k_x415wcvXuXLOk7EPQ&_nc_ss=7a3a8&oh=00_Af0E4iBdHWLcDNnT74urAVtAHJATtPC4ceg4BTiKOmdNUA&oe=69E37773"
+            alt="khmer new year image"
+          />
+        </div>
+
+        <div class="flex-1">
+          <h1 class="text-amber-900 text-4xl font-bold mb-4">
+            Day 1 “Maha Sankranta”
+          </h1>
+
+          <p class="text-gray-700 leading-relaxed">
+            The first day of Khmer New Year is called “Maha Sankranta”. It can
+            simply be described as an inauguration of new year. In Khmer
+            tradition, the world is believed to be created by God and taken care
+            of by his angels. On the day, family members work hard on cleaning
+            and decorating the house and help arranging foods and drinks on a
+            table as to welcome the new angel. Buddhist followers may also
+            prepare food and fruits to be offered to the monks for blessings.
+          </p>
+
+          <span
+            class="inline-block w-fit px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-widest rounded-full"
+          >
+            Cultural Heritage
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- section3 -->
+    <div class="max-w-6xl mt-10 mx-auto p-4 sm:p-6 md:p-8 bg-white border border-amber-200 rounded-xl">
+      <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
+        <div class="flex-1">
+          <h1 class="text-amber-900 text-4xl font-bold mb-4">
+            Day 2 “Virak Vanabat”
+          </h1>
+
+          <p class="text-slate-600 leading-relaxed text-lg mb-8">
+            The second day of the celebration is called “Virak Vanabat”. It
+            signifies a day of offering gifts to the elders includes parents and
+            grandparents. Most Cambodian offer charity by donating food, money
+            or clothes to the less fortunate. In the evening, the young and
+            elder would go to religious temples to perform the ceremony of
+            erecting sandy mounds on the temple ground. The ritual is believed
+            to bring Cambodian people longevity and prosperity in life.
+          </p>
+
+          <span
+            class="inline-block w-fit px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-widest rounded-full"
+          >
+            Cultural Heritage
+          </span>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+          <div>
+            <img
+              class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZoBDs6UUrp8JWqrdL3ZcwbjN7ajGyEhEBg&s"
+              alt="Day2 khmer new year image"
+            />
+          </div>
+          <div>
+            <img
+              class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+              src="https://visitlocaltravel.com/blog/wp-content/uploads/2025/04/Cambodian-Near-Year.webp"
+              alt="Day2 khmer new year image"
+            />
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <!-- section4 -->
+    <div class="max-w-6xl mt-10 mx-auto p-4 sm:p-6 md:p-8 bg-white border border-amber-200 rounded-xl">
+      <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
+        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+          <img
+            class="w-[400px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.boreiangkor.com/wp-content/uploads/2023/12/srang-preah.jpg"
+            alt="wedding image"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://i0.wp.com/cambodianyouthsupport.com/wp-content/uploads/2024/04/KNY24_vannara-scaled.jpg?fit=2048%2C2560&ssl=1"
+            alt="wedding image"
+          />
+        </div>
+
+        <div class="flex-1">
+          <h1 class="text-amber-900 text-4xl font-bold mb-4">
+            Day 3 “Vearak Leung Sak”
+          </h1>
+
+          <p class="text-gray-700 leading-relaxed">
+            The third day or the final day of new year celebration is called
+            “Vearak Leung Sak”. It is the day when the year of 2017, for
+            example, would change and begin to be 2018. Customarily, to complete
+            the New Year festival, Cambodians need to perform the last ceremony
+            called “Pithi Srang Preah”. The ritual is done by washing and
+            cleaning the statues of Lord Buddha with scented water. This is
+            meant to symbolize the washing away of evil deeds and gaining
+            blessings. The elders whom you respect such as parents and
+            grandparents can also be washed the same way as to apologize them
+            for past mistakes and to gratify them.
+          </p>
+
+          <span
+            class="inline-block w-fit px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-widest rounded-full"
+          >
+            Cultural Heritage
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- section 5  Pchum Ben-->
+    <div class="max-w-7xl mt-10 mx-auto p-8 bg-white border border-amber-200">
+      <div class="items-center gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 animate-bounce">
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.cpp.org.kh/wp-content/uploads/2024/09/140924.jpg"
+            alt="Pchum Benimage"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.asiakingtravel.com/cuploads/files/image-20250916111233-1.jpeg"
+            alt="Pchum Benimage"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://www.angkortravelphotography.com/wp-content/uploads/sites/3064/2016/10/offering_cambodia_angkor.jpg"
+            alt="Pchum Benimage"
+          />
+
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://intocambodia.org/wp-content/uploads/2017/08/An-Sorm-Chruk-or-Khmer-Sticky-Rice-Cake-%C2%A9-%E1%9E%A2%E1%9E%84%E1%9F%92%E1%9E%82%E1%9E%97%E1%9E%B6%E1%9E%96%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93-%E1%9E%93%E1%9E%B7%E1%9E%84%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%8F%E1%9E%B7%E1%9E%80%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%9A%E1%9E%A0%E1%9F%90%E1%9E%9F-2.jpg"
+            alt="Pchum Benimage"
+          />
+         
+        </div>
+
+        <h1
+          class="text-amber-900 text-4xl font-bold mt-4 place-self-center mb-4"
+        >
+          Pchum Ben – Festival Of The Dead
+        </h1>
+
+        <p
+          class="mb-8 text-xl text-stone-700 leading-relaxed max-w-3xl mx-auto italic"
+        >
+          Pchum Ben, also known as Ancestor's Day or the Festival of the Dead,
+          happens on the 15th day of the 10th Khmer month, or in September or
+          October of the solar calendar. Cambodians believe that during this
+          time, the doorway to hell will be opened, and the spirits of those who
+          are unable to move on to the afterlife will come back to roam Earth.
+          By offering food, gifts, and prayers, they honor their seven
+          generations of ancestors and hope to alleviate any suffering the
+          spirits may be experiencing.
+          <span class="block">
+            “Pchum” means “to gather together,” and “Ben” represents a “ball of
+            food”. During Pchum Ben, families gather and visit temples and
+            pagodas to pay their respects and offer food to monks, who will pass
+            it on to the spirits. The merits earned are expected to reduce the
+            sins of the ancestors.
+          </span>
+          <span class="block">
+            While other festivals share some standard features with other
+            traditions in other countries, Pchum Ben is a unique feature of
+            Cambodia. The event is a deeply rooted and emotionally charged
+            occasion that highlights Cambodia's rich spiritual and familial
+            traditions, emphasizing the enduring connections between the living
+            and the departed. If you are in Cambodia during this time, consider
+            heading to a temple for an interesting look at a unique tradition.
+          </span>
+        </p>
+      </div>
+    </div>
+    <!-- section 6  Bon Om Touk - Water Festival-->
+    <div class="max-w-7xl mt-10 mx-auto p-8 bg-white border border-amber-200">
+      <div class="items-center gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 animate-bounce">
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://mekongtourism.org/wp-content/uploads/2023/05/water-festival-030005.jpg"
+            alt="Pchum Benimage"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://babyelephant.asia/wp-content/uploads/2020/05/water-festival-bon-om-touk-siem-reap-03-resized.jpg"
+            alt="Pchum Benimage"
+          />
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://cms.siemreaper.click/uploads/Water_Festival_002_de4dbf15e5.jpg"
+            alt="Pchum Benimage"
+          />
+
+          <img
+            class="w-[300px] h-80 object-cover border-amber-400 rounded-xl border-2 border-solid"
+            src="https://pharecircus.org/wp-content/uploads/2016/07/water4_opt-1.webp"
+            alt="Pchum Benimage"
+          />
+         
+        </div>
+
+        <h1
+          class="text-amber-900 text-4xl font-bold mt-4 place-self-center mb-4"
+        >
+          Bon Om Touk - Water Festival
+        </h1>
+
+        <p
+          class="mb-8 text-xl text-stone-700 leading-relaxed max-w-3xl mx-auto italic"
+        >
+          Bon Om Touk, the Cambodian Water Festival, is an annual and grand
+          celebration in Phnom Penh that marks the reversal of the flow between
+          the Mekong and Tonle Sap rivers, which is an anomaly unique to the
+          country. Typically occurring in November and lasting for 3 days, it
+          commemorates the end of the rainy season and the beginning of the
+          fishing season. This is also a way for Cambodians to thank the water
+          god for bringing abundant water and to pray for the harvest next year.
+
+          <span class="block">
+            The festival features colorful boat races, with teams from across
+            the country competing on the Tonle Sap River. Illuminated floats,
+            traditional music, colorful fireworks, and vibrant parades further
+            contribute to the festive atmosphere. Cambodians gather in Phnom
+            Penh to enjoy the festival, fostering a sense of national pride and
+            unity. Bon Om Touk is a captivating display of Cambodia's rich
+            cultural heritage.
+          </span>
+        </p>
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="bg-white border-t border-gray-200">
+      <div class="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <span
+                class="self-center text-2xl font-bold whitespace-nowrap text-amber-900"
+                >Khmer Heritage</span
+              >
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-heading uppercase">
+                Resources
+              </h2>
+              <ul class="text-body font-medium">
+                <li class="mb-4">
+                  <a href="https://flowbite.com/" class="hover:underline"
+                    >Flowbite</a
+                  >
+                </li>
+                <li>
+                  <a href="https://tailwindcss.com/" class="hover:underline"
+                    >Tailwind CSS</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-heading uppercase">
+                Follow us
+              </h2>
+              <ul class="text-body font-medium">
+                <li class="mb-4">
+                  <a
+                    href="https://github.com/themesberg/flowbite"
+                    class="hover:underline"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://discord.gg/4eeurUVvTy"
+                    class="hover:underline"
+                    >Discord</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-heading uppercase">
+                Legal
+              </h2>
+              <ul class="text-body font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-default sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-body sm:text-center"
+            >© 2023
+            <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a
+            >. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-body hover:text-heading">
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18.942 5.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.586 11.586 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3 17.392 17.392 0 0 0-2.868 11.662 15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.638 10.638 0 0 1-1.706-.83c.143-.106.283-.217.418-.331a11.664 11.664 0 0 0 10.118 0c.137.114.277.225.418.331-.544.328-1.116.606-1.71.832a12.58 12.58 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM8.678 14.813a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.929 1.929 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"
+                />
+              </svg>
+              <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">GitHub account</span>
+            </a>
+            <a href="#" class="text-body hover:text-heading ms-5">
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2a10 10 0 1 0 10 10A10.009 10.009 0 0 0 12 2Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.093 20.093 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM10 3.707a8.82 8.82 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.755 45.755 0 0 0 10 3.707Zm-6.358 6.555a8.57 8.57 0 0 1 4.73-5.981 53.99 53.99 0 0 1 3.168 4.941 32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.641 31.641 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM12 20.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 15.113 13a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Dribbble account</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
+  </body>
+</html>
